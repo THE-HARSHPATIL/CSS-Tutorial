@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLOAT</title>
+</head>
+<body>
+
+  <div class="linked1" align = "center">
+    <ul  >
+    <!--Giving class to each element in list for display properties-->
+      <li align = "center" class="item"><a href="https://www.instagram.com/accounts/login/" target="_blank"><font face="Impact" >INSTAGRAM</font></a></li>
+      <li align = "center" class="item"><a href="https://www.facebook.com/login/" target="_blank"><font face="Impact" >FACEBOOK</font></a></li>
+      <li align = "center" class="item"><a href="https://twitter.com/"target="_blank"><font face="Impact">TWITTER</font></a></li>
+      <li align = "center" class="item"><a href="https://www.whatsapp.com/"target="_blank"><font face="Impact">WHATSAPP</font></a></li>
+    </ul>
+  </div>
+<br>
+
+<div class = "float2">
+  <div class = "first2"></div>
+  <div class = "second2"></div>
+  <div class = "third2"></div>
+</div>
+
+ <div class = "floattt">
+    <div class = "first1"></div>
+    <div class = "second1"></div>
+    <div class = "third1"></div>
+  </div>
+
+  <div class = "float">
+    <div class = "first"></div>
+    <div class = "second"></div>
+    <div class = "third"></div>
+  </div>
+
+</body> 
+<style>
+  
+  body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlvuvMlCTSAYvTplJeO8FA4862v8tr4KOlXg&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+
+  }
+
+  .linked1{
+    
+    text-align: center;
+    text-decoration: none;
+    list-style-position: inside;
+    background-color: rgb(5, 5, 5);
+    font-size: 25px;
+    width: 100%;
+
+    /*Helping for bettr display properties*/
+    height: 2cm;
+    padding-top: 1.5px;/*fpr putting them in center*/
+    padding-bottom: 1.5px;
+
+  
+
+    /*editing words in menu*/
+    text-align: right;
+  
+     /*changing word spacing*/
+     word-spacing :0.1em;
+  }
+
+  
+  a{
+    /*for removing link effect*/
+    text-decoration: none;
+
+    /*to add space between horizontal list elements*/
+    margin: 0 65px;
+  
+  }
+a:hover{
+  /* to change background color while moving a cursor on it*/
+  color: rgb(255, 255, 255);
+   /*To Increase the size of text while moving on it*/
+  /*Zoom effect*/
+}
+
+/*editing words in menu*/
+.item{
+
+  text-align: center;
+  display: inline;
+  
+  /*for putting them in center*/
+  padding-top: 50px;
+  left: auto;
+}
+
+           /*....................FLoats at top...................*/
+
+          
+.first2{
+  background-color: red;
+  height: 45px;
+  width:20%;
+  display: inline-block;
+  
+}
+
+.second2{
+  background-color: blue;
+  height: 45px;
+  width:20%;
+  display:inline-block;
+}
+
+.third2{
+  background-color: green;
+  height: 45px;
+  width:59.4%;
+  display:inline-block;
+  
+  float:right;
+
+}
+
+.float2{
+  position:relative;
+  margin-top: 1cm;
+  border:3px solid black;
+  box-sizing: border-box;
+  padding:5px;
+  padding-bottom: 2px;
+}
+
+
+
+            /*....................FLoats with border....................*/
+
+.first{
+  background-color: red;
+  height: 45px;
+  width:20%;
+  display: inline-block;
+  border: 4px solid rgb(13, 13, 14);
+}
+
+.second{
+  background-color: blue;
+  height: 45px;
+  width:20%;
+  display:inline-block;
+ border: 4px solid rgb(3, 3, 3);
+}
+
+.third{
+  background-color: green;
+  height: 45px;
+  width:57.6%;
+  display:inline-block;
+  float:right;
+border: 4px solid rgb(17, 17, 17);
+}
+
+.float{
+  position:relative;
+  margin-top:2cm;
+
+}
+            /*....................FLoats at Center....................*/
+
+.first1{
+  background-color: red;
+  height: 45px;
+  width:20%;
+  display: inline-block;
+}
+
+.second1{
+  background-color: blue;
+  height: 45px;
+  width:20%;
+  display:inline-block;
+ 
+}
+
+.third1{
+  background-color: green;
+  height: 45px;
+  width:59.5%;
+  display:inline-block;
+  float:right;
+
+}
+.floattt{
+  position:relative;
+  margin-top: 5cm;
+}
+
+</style>
+</html>

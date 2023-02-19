@@ -1,0 +1,80 @@
+<html>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <p align = "center"><font style="color: coral ; background-color :aliceblue" size = "+3">  NOW WE ARE GOING TO START STUDING CSS  </font></p>
+    <h1 align = "center"><font> : SELECTORS : </font> </h1>
+  </head>
+  
+  <body>
+<p align = "center"><font size = "+1" style="color :black">This is a testing paragraph of selector module.<br>Here we give a background color to paragraph.</font></p>
+   
+<p align = "center" id = "target1"><font size = "+1" style="color :rgb(2, 62, 97)">This is a testing paragraph of selector module.<br>Here we give a background color to paragraph.<br>We only change the background of certain paragraph.<br><b>Here we used id selector.</b></font></p>
+
+<p align = "center" class="test"></p>
+<div class="test" align = "center"><font size = "+1" style="color:white">This is a testing paragraph of selector module.<br>Here we give a background color to paragraph.<br><b>Here we used class selector.</b></font></div>
+<br>
+<br>
+<br>
+<hr width = " 70%" color="white" size="2">
+<p align = "center" id = "end"><font style="color :white" size = "+1"><i>In next Module we will study operations on background using CSS.</font></i></p>
+<hr width = " 70%" color="white" size="2">
+
+  </body>
+  <style>
+    /*Selectors use to select specific object for implimentation of CSS.
+    body is use to select background of stylesheet.
+    body selector syntax : body{
+      parameter1 : value1;
+      parameter2 : value2;
+    }
+    */
+    body{
+      background: rgb(221, 187, 37);
+    }
+    /*Selectors use to select specific object for implimentation of CSS.
+    p is use to select paragraph.
+    paragraph selector syntax : p{
+      parameter1 : value1;
+      parameter2 : value2;
+    }
+    */
+    p{
+      background: greenyellow;
+    }
+    /*Selectors use to select specific object for implimentation of CSS
+    id selector syntax : #id_name{
+      parameter1 : value1;
+      parameter2 : value2;
+      In body Syntax :
+      <p id = "id_name">...text...</p>
+    }
+    */
+    #target1{
+      background: palevioletred;
+    }
+
+    /*Selectors use to select specific object for implimentation of CSS
+    class selector syntax : .class_name{
+      parameter1 : value1;
+      parameter2 : value2;
+    }
+    In body Syntax :
+    <p class = "class_name"></p>
+    <div class = "class_name">...text...</div>
+    */
+    .test{
+      color: chartreuse;
+      background: green;
+    }
+
+    #end{
+      background:rgb(221, 187, 37) ;
+    }
+
+  </style>
+</htmL>

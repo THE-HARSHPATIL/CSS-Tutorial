@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Border</title>
+  <h1 align = "center"><font face = "Copperplate Gothic" style="color :rgb(162, 62, 255)">: BORDERS :</font></h1>
+</head>
+<body>
+
+<div class="border" align = "center"><font  style="color: black;">This is an example of giving solid border.</font></div>
+<br>
+
+<div class="border1" align = "center"><font  style="color: black">This is an example of giving dashed border.</font></div>
+<br>
+
+<div class="border2" align = "center"><font style="color: black">This is an example of giving dotted border.</font></div>
+<br>
+
+<div class="border3" align = "center"><font  style="color: black">This is an example of giving solid and dashed border.</font></div>
+<br>
+
+<div class="border4" align = "center"><font  style="color: black">This is an example of giving curved border.</font></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr width = " 85%" color="orange" size="+3" >
+<hr width = " 85%" color="orange" size="+3">
+<hr width = " 85%" color="orange" size="+3">
+<p align = "center"><font size = "+2" style="color:rgb(44, 44, 112)"><u><i>In next module we will learn about Marging and Padding in CSS.</i></u></font></p>
+</body>
+
+<style>
+  body{
+    background: rgb(214, 234, 243);
+  }
+/*Creating a Solid border using border operators.*/
+  .border{
+   border-style: solid;
+    border-width: 2px;
+    border-color: indigo;
+  }
+/*Creating a Dashed border using border operators.*/
+    .border1{
+      border-style: dashed;
+      border-width: 2px;
+      border-color: brown;
+    }
+
+    /*Creating a Dotted border using border operators.*/
+    .border2{
+      border-style: dotted;
+      border-width: 4px;
+      border-color: rgb(3, 82, 3);
+    }
+
+    /*Creating a Solid and Dashed border using border operators.*/
+    .border3{
+    border-top-style: solid ;
+    border-top-color: darkorange;
+    border-bottom-style: dotted;
+    border-bottom-color:rgb(241, 16, 0) ;
+    border-left-style: solid;
+    border-left-color: rgb(105, 99, 5);
+    border-right-style: dotted;
+    border-right-color: lightseagreen;
+      }
+    
+      /*Creating a Curved border using border operators.*/
+      .border4{
+        border-style: solid;
+        border-color: darkblue;
+        border-radius: 15px;
+      }
+</style>
+</html>

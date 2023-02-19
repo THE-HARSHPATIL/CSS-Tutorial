@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List</title>
+
+  <div align = "center" class="title"><font face= "Impact" size = "+5" style="color:white"><b>&nbsp;: <u>List and Link Formatting :</u> &nbsp;</b></font></div>
+
+</head>
+  <!--Adding a Basic List -->
+<div align = "center" class="list1">
+  <ul style="color:rgb(13, 104, 69)">
+  <li align = "center"><font size="+2">item 1</font></li>
+  <li align = "center"><font size="+2">item 2</font></li>
+  <li align = "center"><font size="+2">item 3</font></li>
+  <li align = "center"><font size="+2">item 4</font></li>
+  <li align = "center"><font size="+2">item 5</font></li>
+  </ul>
+</div>
+<div align = "center" class="center"><font size = "+3" style="color:darkorange">This is an example of Link Formatting </font></div>
+
+
+  <div class="linked1" align = "center">
+    <ol style="color: rgb(46, 62, 209);" type="I">
+      <li align = "center"><a href="this/" target="_blank"><font ">TEMP1</font></a></li>
+      <li align = "center"><a href="this/"target="_blank"><font ">TEMP2</font></a></li>
+      <li align = "center"><a href="this/"target="_blank"><font >TEMP3</font></a></li>
+      <li align = "center"><a href="this/"target="_blank"><font >TEMP4</font></a></li>
+      <li align = "center"><a href="this/"target="_blank"><font >TEMP5</font></a></li>
+
+    </ol>
+  </div>
+
+</body>
+<style>
+
+  body{
+    background-color:bisque;
+    background-size: cover;
+  }
+  
+  .center{
+    -webkit-text-stroke-color:rgb(19, 20, 22) ;
+    -webkit-text-stroke-width: 1px;
+  }
+
+  .title{
+    border-color: black;
+    -webkit-text-stroke-color: rgb(37, 60, 104) ;
+    -webkit-text-stroke-width: 1.5px;
+    
+   
+  }
+  
+  .list1{
+    list-style-type: circle;
+    text-align: center;
+    list-style-position: inside;
+    background-color:aliceblue;
+    align-items: center;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    -webkit-text-stroke-color: rgb(231, 137, 29) ;
+    -webkit-text-stroke-width: 0.3px;
+  }
+
+  .linked1{
+    text-align: center;
+    text-decoration: none;
+    list-style-position: inside;
+    background-color: rgb(152, 186, 214);
+    margin-left: 2cm;
+    margin-right: 2cm;
+  }
+  
+  /*This is a code for link formatting
+    1st - create a (a) class then a:hover{} */
+  a{
+    text-decoration: none;
+  }
+a:hover{
+  /* to change background color while moving a cursor on it*/
+  background-color: rgb(233, 8, 8);
+
+
+
+  /*To Increase the size of text while moving on it*/
+  /*Zoom effect*/
+  font-size: 1.5em;
+}
+
+a:active{
+font-size: 4em;
+}
+
+
+</style>
+</html>
